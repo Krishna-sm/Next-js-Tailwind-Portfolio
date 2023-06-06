@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+.logo{
+    font-family: 'Love Light', cursive;
+}
+
+.logo::selection{
+    font-family: 'Love Light', cursive;
+}
+
+.divider{
+    font-family: 'Poiret One', cursive;
+
+}
+.name{
+    font-family: 'Lora', serif;
+}

@@ -1,27 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+html{
+    scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.accordination{
+    font-family: 'Poltawski Nowy', serif;
+}
+
+.accordination-text{
+    font-family: 'Della Respira', serif;
+}
+
+.heading{
+    font-family: 'Niconne', cursive;
+
+}
+
+::selection{
+     text-shadow: 5px 0.3px 25px black;
+}
+
+
+
+.swiper {
+    width: 50%;
+    min-height: 320px;
   }
-}
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    /* background-color: aquamarine; */
+  }
+  
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  /* .    background: #252a33; */
+  .react-terminal-wrapper{
+    background-color: rgb(17 24 39 / 1) !important;
+    border: 1px solid white !important;
+  }
