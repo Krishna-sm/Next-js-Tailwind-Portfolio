@@ -43,7 +43,7 @@ const Experience = () => {
             <Card
               src={"/speqto.jpg"}
               title={" Node Js Backend"}
-              desc={" Develop and Manitain Backend Apis Using Node js and Mongo DB . working With Block chain and Crypto currency. I Learn Many New things things "}
+              desc={" Develop and Manitain Backend Apis Using Node js and Mongo DB . working With Block chain and Crypto currency. I Learn Many New things  "}
               location={"Noida, India"}
             />
           </div>
